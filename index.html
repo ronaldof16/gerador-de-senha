@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de senhas</title>
+    <title>Gerador de senha</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Gerador de senha</h1>
+    </header>
+    <main>
+        <span>Tamanho <span id="valor"></span>caracteres</span>
+        <input type="range" id="slider" class="slider" min="5" max="25">
+        <button id="button" class="button-cta">Gerar senha</button>
+    </main>
+
+    <div id="container password" class="container password hide">
+        <span class="title">Sua senha gerada foi:</span>
+        <span id="password" class="password">123123123123</span>
+        <span>Clique na sua senha para copiar. 👆</span>
+    </div>
 </body>
 </html>
