@@ -101,3 +101,15 @@ h1 {
 .container-password:hover .tooltip {
     visibility: visible;
 }
+
+footer {
+    text-align: center;
+    color: #FFF;
+    margin-top: 40px;
+    font-size: 13px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFF;
+}
