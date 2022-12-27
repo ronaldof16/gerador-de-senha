@@ -17,8 +17,8 @@ body {
 
 h1 {
     color: #FFF;
-    max-width: 600px;
     margin-bottom: 24px;
+    text-align: center;
 }
 
 .container-input {
