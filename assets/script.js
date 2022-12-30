@@ -10,4 +10,14 @@ sizePassword.innerHTML = sliderElement.value;
 
 slider.oninput = function() {
     sizePassword.innerHTML = this.value;
-};
+}
+
+function generaterPassword() {
+    let pass = "";
+
+    for(i = 0, n = charset.length; i < sliderElement.value; i++) {
+        pass += charset.charAt(Math.floor(Math.random() * n));
+    }
+
+    console.log(pass);
+}
