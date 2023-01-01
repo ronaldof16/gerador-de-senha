@@ -19,5 +19,13 @@ function generaterPassword() {
         pass += charset.charAt(Math.floor(Math.random() * n));
     }
 
-    console.log(pass);
+    containerPassword.classList.remove("hide");
+    password.innerHTML = pass; 
+    novaSenha = pass;  
 }
+
+function copiaSenha() {
+    alert("Senha copiada com sucesso!");
+    navigator.clipboard.writeText(novaSenha);
+}
+
