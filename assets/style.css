@@ -36,6 +36,11 @@ h1 {
     font-size: 22px;
 }
 
+#valor {
+    font-weight: bold;
+    color: #c2e4cb;
+}
+
 .slider {
     -webkit-appearance: none;
     width: 100%;
