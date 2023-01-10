@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Pacifico&family=Poppins&display=swap');
+
 * {
-    font-family: sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
@@ -19,7 +21,7 @@ h1 {
     color: #36cecc;
     margin-bottom: 24px;
     text-align: center;
-    text-transform: uppercase;
+    font-size: 48px;
 }
 
 .container-input {
