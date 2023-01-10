@@ -33,7 +33,7 @@ h1 {
 
 .container-input span {
     color: #36cecc;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 #valor {
@@ -73,7 +73,7 @@ h1 {
 }
 
 .hide {
-    visibility: hidden;
+    display: none;
 }
 
 .title {
@@ -113,6 +113,6 @@ h1 {
 }
 
 .container-password:hover .tooltip {
-    display: none;
+    visibility: visible;
 }
 
