@@ -2,6 +2,9 @@
 
 Link da página: <https://ronaldof16.github.io/gerador-de-senha/>
 
+
+![design do projeto](assets/design-gerador-de-senha.png)
+
 ## Objetivo
 
 Neste projeto o objetivo é fazer com que o usuário consiga gerar inúmeras senhas e 
