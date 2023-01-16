@@ -13,7 +13,8 @@ da senha através do input que permite alterar o tamanho da senha de maneira int
 com o mouse e clicando dentro do input, sem precisar digitar o tamanho desejado. Ao clicar 
 no botão gerar senha, a senha será gerada e irá aparecer logo abaixo do botão, o usuário 
 também vai ter a opção de copiar a senha clicando em cima dela, com isso não irá precisar 
-selecionar e copiar a senha.
+selecionar e copiar a senha, também irá aparecer um alerta informando que a senha foi 
+copiada com sucesso quando o usuário clicar em copiar a senha.
 
 ## Habilidades utilizadas
 
